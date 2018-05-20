@@ -1,4 +1,4 @@
-class Projects
+class Project
   attr_accessor :backers; :title
 
   def initialized(title)
