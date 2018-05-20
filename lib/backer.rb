@@ -7,8 +7,8 @@ attr_accessor :back_projects, :name
   end
 
   def back_projects=(project)
-    @back_projects << Project.new
     @back_projects << project
+    @back_projects << self
 
   end
 
